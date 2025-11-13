@@ -1,0 +1,111 @@
+@media only screen and (max-width:910px) {
+    .info_up img {
+        display: none;
+    }
+
+    .info_up {
+        text-align: center;
+    }
+
+    .part_right b {
+        font-size: 14px;
+    }
+
+    .part_left p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:513px) {
+
+    .info_up {
+        text-align: right;
+    }
+
+    .submit {
+        text-align: center;
+    }
+
+
+
+    .box1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:743px) {
+    .items {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .delete {
+        display: none;
+    }
+
+    .uls {
+        text-align: center;
+    }
+
+    .icons_link {
+        justify-content: center;
+    }
+
+    .part_right b {
+        font-size: 10px;
+    }
+
+    .part_left p {
+        font-size: 10px;
+    }
+
+    .menu {
+        display: flex;
+    }
+}
+
+
+@media only screen and (max-width:873px) {
+    .my_zarin {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1273px) {
+    .box2 {
+        flex-direction: column;
+        align-items: end;
+        margin-inline: 20px;
+
+    }
+
+    .box1 {
+        flex-direction: column;
+        align-items: end;
+        margin-inline: 20px;
+    }
+
+    .box_left {
+        width: 100%;
+    }
+
+    .box_right {
+        width: 100%;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    .invite h1 {
+        font-size: 18px;
+    }
+
+    .invite h3 {
+        font-size: 13px;
+    }
+}
